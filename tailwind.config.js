@@ -9,13 +9,13 @@ export default {
       colors: {
         primary: '#141B42', 
         secondary: '#111827',
-        tertiary: '#F549FF', 
+        tertiary: '#f472b6', 
       },
       backgroundImage: {
        'custom-gradient': 'linear-gradient(to right, #2783FF, #B345FF, #F549FF)'
       },
       fontFamily: {
-        sans: ['DM Sans', 'sans-serif'], // Ajout de la police DM Sans
+        montserrat: ['Montserrat', 'sans-serif'],
       },
     },
   },

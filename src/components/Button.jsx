@@ -3,7 +3,7 @@ import React from 'react';
 const Button = ({ type = 'outline', children, showArrow = false, onClick }) => {
   const buttonClass = type === 'full' 
     ? 'bg-custom-gradient text-white hover:text-primary' // Design de ButtonFull
-    : 'border-2 border-tertiary text-white  hover:text-white hover:text-tertiary'; // Design de BuutonOutline
+    : 'border-2 border-tertiary text-white  hover:text-tertiary'; // Design de BuutonOutline
 
   return (
     <button

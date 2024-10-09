@@ -37,7 +37,7 @@ const Navbar = () => {
             <FaTimes size={25} className='hover:text-tertiary'/>
           </button>
           <div className="flex flex-col space-y-4 text-center text-5xl uppercase">
-            <a href="#" className="text-white hover:text-tertiary" onClick={closeMenu}>Accueil</a>
+            <a href="/" className="text-white hover:text-tertiary" onClick={closeMenu}>Accueil</a>
             <a href="#" className="text-white hover:text-tertiary" onClick={closeMenu}>Services</a>
             <a href="#" className="text-white hover:text-tertiary" onClick={closeMenu}>Projets</a>
             <a href="#" className="text-white hover:text-tertiary" onClick={closeMenu}>Skills</a>
