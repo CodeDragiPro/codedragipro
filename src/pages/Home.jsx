@@ -2,6 +2,7 @@ import React from 'react'
 import SectionSeparator from '../components/SectionSeparator'
 import Hero from '../components/Hero'
 import Services from '../components/Services'
+import ProjectLast from '../components/ProjectLast'
 
 const Home = () => {
   return (
@@ -10,6 +11,8 @@ const Home = () => {
       <Hero/>
       <SectionSeparator text="Services"/>
       <Services/>
+      <SectionSeparator text="Dernier Projet"/>
+      <ProjectLast/>
     </div>
   )
 }
