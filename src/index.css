@@ -8,3 +8,10 @@
 body {
     background-color: #141B42;
 }
+
+.gradient-text {
+    background: linear-gradient(to right, #2783FF, #B345FF, #F549FF); /* Ton dégradé ici */
+    -webkit-background-clip: text; /* Pour Safari */
+    -webkit-text-fill-color: transparent; /* Remplissage transparent pour masquer le fond */
+  }
+
